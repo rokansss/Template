@@ -6,6 +6,7 @@ jobs:
   test:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 1440
 
     steps:
     - name: Download ngrok
